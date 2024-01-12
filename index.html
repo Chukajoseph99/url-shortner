@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/00f8ef876f.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="styles.css">
+ <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<title>Dove Url Shortener</title>
+
+</head>
+<body>
+
+
+<section class="sectionOne">
+<div class="containerOne">
+<!-- <div class="topnav" id="myTopnav">
+<a href="" class="active"><span>D</span>O<span>V</span>E</a>
+<a href="" class="button">Get Quote</a>
+<a href="">Sign Up</a>
+<a href="">Login</a>
+</div> -->
+<div class="parent"> 
+<nav>
+<a href="#" class="logo" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="400" style="font-size:35px"><span style="color:red">D</span style="color:red"><span style="color:blue">O</span><span style="color:red">V</span style="color:red"><span style="color:blue">E</span></a>
+<button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+<ul data-aos="fade-left" data-aos-easing="ease-in-out"  data-aos-delay="400" class="nav-ul" id="nav-ul">
+<li><a href="">Sign Up</a></li>
+<li><a href="">Login</a></li>
+<li><a href="" class="button">Get Quote</a></li>
+</ul>
+</nav>
+</div>
+
+<div class="content">
+<h1 data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-delay="400">
+ Secure Short URL Service You Can Trust. Short Links, Big Results
+</h1>
+</div>
+ <!-- link input and shorten button -->
+ <div id="content-div" data-aos="zoom-out" data-aos-easing="ease-in-out" data-aos-delay="400">
+  <div id="input-div">
+    <input type="text" class="text-field content-row" placeholder="Enter URL here . . ." id="input-field" required/>
+    <button id="shorten" type="button" class="content-row button buttoni">Shorten URL</button>
+    <button type="button" id="clear-btn" class="content-row button">Clear</button>
+  </div>
+  <!-- Output and copy -->
+  <div id="output-div">
+    <div class="content-row" id="new-url-label">Your short URL:</div>
+    <div id="new-url" class="content-row"></div>
+    <button type="button" id="copy-btn" data-clipboard-target="#new-url" class="content-row button">Copy</button>
+  </div>
+  <div class="" id="error-div">
+     <p class="content-row" id="error-text"></p>
+  </div>
+</div>
+
+</div>
+</section>
+<!--script-->
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({once:true});
+</script>
+</body>
+</html>
